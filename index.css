@@ -9,7 +9,7 @@
     display: block;
 }
 
-.rotate {
+.main-title {
     text-decoration: none;
     margin-left: 7%;
     float: left;
@@ -28,7 +28,7 @@
     background-color: #f65040;
 }
 
-.downicon {
+.down-icon {
     float: right;
     height: 0;
     width: 0;
@@ -54,55 +54,53 @@ ul {
 .list li {
     height: 60px;
     width: 300px;
-    line-height: 70px;
+    line-height: 60px;
     border-bottom: 2px #FD7965 solid;
 }
 
-.list li:first-child{
+.list li:first-child {
     border-radius: 7px 7px 0 0;
 }
 
-.list li:last-child{
+.list li:last-child {
     border-radius: 0 0 7px 7px;
     border-bottom: none;
 }
 
 .list::before {
-    content: " ";
+    content: "";
     position: absolute;
     top: 40px;
     right: 25px;
-    height: 40px;
-    width: 0;
     height: 0;
+    width: 0;
     border: 15px solid transparent;
     border-bottom-color: #f65040;
 }
 
-.elements-heart {
-    background-image: url(./static/pics/elements.png);
+.icon {
     background-repeat: no-repeat;
     background-size: 150px 100px;
+}
+
+.icon-heart {
+    background-image: url(./static/pics/elements.png);
     background-position: 20px -31px;
-  }
+}
 
-  .elements-star {
+.icon-star {
     background-image: url(./static/pics/elements.png);
-    background-repeat: no-repeat;
-    background-size: 150px 100px;
     background-position: -44px 16px;
-  }
+}
 
-  .elements-message {
+.icon-messege {
     background-image: url(./static/pics/elements.png);
-    background-repeat: no-repeat;
-    background-size: 150px 100px;
-    background-position: 22px 18px;
-  }
+    background-position: 22px 15px;
+}
 
-  li a{
+li a {
     margin-left: 70px;
+    text-decoration: none;
     color: white;
     background-color: #f65040;
-    text-decoration: none;
-  }
+}
